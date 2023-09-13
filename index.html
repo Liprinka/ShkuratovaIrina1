@@ -1,0 +1,154 @@
+<!DOCTYPE html> 
+<html lang="ru" xmlns="http://www.w3.org/1999/xhtml">
+<head> 
+    <meta charset="utf-8" />
+    <title>Шкуратова Ирина - Задание №1</title> 
+</head>
+<body>
+    <h1>Задание1</h1>
+    <br />
+    <!--Гиперссылки-->
+        <h2>Гиперссылки</h2>
+        <ol> 
+            <li><a href="http://kubsu.ru"> Абсолютная гиперссылка на главную страницу КУБГУ (1)</a></li>
+            <br />
+            <li><a href="https://kubsu.ru"> Абсолютная гиперссылка на главную страницу КУБГУ в протоколе https(2)</a></li>
+            <br />
+            <li><img src="https://github.com/ArtyomPrasol/ArtyomPrasol.github.io/blob/ea63fca0df52e1734bd67e75ea7b823e25539e90/image.jpg?raw=true" alt="Ссылка на картинку" width="250" height="250" /></li>
+            <br />
+            <li><a href="/page2">Сокращённая ссылка на внутреннюю страницу(4)</a></li>
+            <br />
+            <li><a href="./index.html">Сокращённая ссылка на главную(5)</a></li>
+            <br />
+            <li><a href="#bottom">Ссылка на фрагмент текущей страницы(6)</a></li>
+            <br />
+            <li><a href="http://example.com/?value=parametr&size=l">Ccылки с тремя параметрами в URL(7)</a></li>
+                <a href="https://www.deviantart.com/join/" title="Параметр 1">
+                    Параметр 1 
+                </a>
+                <br />
+                <a href="https://www.deviantart.com/popular/deviations" title="Параметр 2">
+                    Параметр 2
+                </a>
+                <br />
+                <a href="https://www.deviantart.com/topic" title="Параметр 3">
+                    Параметр 3
+                </a>
+            <br />
+            <br />
+            <li> <a href="https://www.kubsu.ru/index.php/?id=1234">Ссылка с параметром id в URL(8)</a></li>
+            <br />
+            <li><a href="./page2.html">Относительная ссылка на страницу в текущем каталоге(9)</a></li>
+            <br />
+            <li><a href=”/about”>Относительная ссылка на страницу в каталоге about(10)</a></li> 
+            <br />
+            <li><a href="../about">Относительная ссылка уровнем выше(11) </a></li>
+            <br />
+            <li><a href="../../about">Относительная ссылка двумя уровнями выше(12)</a></li>
+            <li> <p> <a id="aInText" href="https://kubsu.ru/"> Cсылка </a>контекстная в тексте абзаца(13)</p></li>
+            <li> <a href="https://www.kubsu.ru/#section-content">Ссылка на фрагмент страницы стороннего сайта(14)</a></li>
+            <br />
+            <li>
+                <img src="https://github.com/ArtyomPrasol/ArtyomPrasol.github.io/blob/main/images.png?raw=true" usemap="#figuri" alt="Фигуры">
+                <map name="figuri">
+                    <area shape="rect" coords="15,15,55,55" href="red.html" alt="красный" />
+                    <area shape="circle" coords="100,75,50" href="green.html" alt="зеленый" />
+                </map>
+            </li>
+            <br />
+            <li><a href="">Ссылка с пустым href(16)</a></li>
+            <br />
+            <li><a>Без href(17) </a> </li>
+            <br />
+             <li><a href="index.html" rel="nofollow">Не перейти(18)</a></li>
+            <br />
+            <li><noindex--><a href="https://example.com">Запрещённая для индексации поисковиками(19)</a></noindex--></li>
+            <br />
+            <li>Нумерованный список ссылок(20):<ol>
+            <li title="первый"><a href="page2.html">Cсылка №1</a></li>
+            <li title="второй"><a href="./sub1/sub2/sub3.html">Cсылка №2</a></li>
+            <li title="третий"><a href="./about/about.html">Cсылка №3</a></li>
+                </ol></li>
+            <br />
+            <li><a href="ftp://demo:demo@http://demo.wftpserver.com/main.html/download/Summer.jpg">Ссылка на файл на сервере FTP</a></li>
+ 
+    <br />
+    <!--Форма-->
+        <h2>Форма</h2>
+        <form action="/" method="POST"> 
+            <label>
+                Имя:
+                <br>
+                <input name="Имя" value="Введите Ваше имя" />
+            </label>
+            <br>
+            <br />
+            <label>
+                Е-mail:
+                <br>
+                <input name="Почта" type="email" placeholder="Ваш е-mail">
+            </label>
+            <br>
+            <br />
+            <label>
+                Дата:
+                <br>
+                <input name="Дата" type="date" value="2022-09-08">
+            </label>
+            <br>
+            <br />
+            Пол
+            <br />
+            <label>
+                <input type="radio" name="radio1" checked="checked" value="Мужской" />
+                Мужской
+            </label>
+            <label>
+                <input type="radio" name="radio1" value="Женский" />
+                Женский
+            </label>
+            <br />
+            <br />
+            Номер телефона:
+            <br>
+                <input name="рhone" type="tel" placeholder="+7(xxx)xxxxxxx"><br>
+            </label>
+    
+            <laber>
+            <br />
+            Любимый язык программирования?
+            <br />
+            <select name="name-super-3[]" multiple="multiple">
+                <option value="Pascal" selected="selected">Pascal</option>
+                <option value="C">C</option>
+                <option value="C++">C++</option>
+                <option value="JavaScript">JavaScrict</option>
+                <option value="PHP">PHP</option>
+                <option value="Python">Python</option>
+                <option value="Java">Java</option>
+                <option value="Hascel">Hascel</option>
+                <option value="Clojure">Clojure</option>
+                <option value="Prolog">Prolog</option>
+                <option value="Scala">Scala</option>
+                
+
+            </select>
+            <br />
+            <br />
+            Биография:
+            <label>
+                <br />
+                <textarea name="field-name-2">Биография</textarea>
+            </label>s
+            <br />
+            <label>
+            <br />
+                <input type="checkbox" checked="checked" name="check1" /> С контактом ознакомлен(а)
+            </label>
+            <br />
+            <br />
+            Отправка формы
+            <input type="submit" value="Отправить" />
+        </form>
+</body>
+</html>
