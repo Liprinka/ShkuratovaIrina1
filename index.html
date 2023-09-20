@@ -2,27 +2,43 @@
 <html lang="ru" xmlns="http://www.w3.org/1999/xhtml">
 <head> 
     <meta charset="utf-8" />
-    <title>Шкуратова Ирина - Задание №1</title> 
+    <title>Меню сайта</title> 
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Задание1</h1>
-    <br />
+    <header align = "center">
+        <nav>
+            <div class="logo-holder">
+                <img src="a7b87450-2410-4117-a75a-f3a334cdc0ee.png" alt="luna" class="logo-img">
+                <h3>MOON</h3>
+                
+            </div>
+        </nav>
+        <ul>
+            <li><a href = "#">Главная</a></li>
+            <li><a>|</a></li>
+            <li><a href = "#">Контакты</a></li> 
+            <li><a>|</a></li>
+            <li><a href = "#">О сайте</a></li>        
+        </ul>
+    </header>
     <!--Гиперссылки-->
         <h2>Гиперссылки</h2>
         <ol> 
-            <li><a href="http://kubsu.ru"> Абсолютная гиперссылка на главную страницу КУБГУ (1)</a></li>
+            <li><a href="http://kubsu.ru"> Абсолютная гиперссылка на главную страницу КУБГУ</a></li>
             <br />
-            <li><a href="https://kubsu.ru"> Абсолютная гиперссылка на главную страницу КУБГУ в протоколе https(2)</a></li>
+            <li><a href="https://kubsu.ru"> Абсолютная гиперссылка на главную страницу КУБГУ в протоколе https</a></li>
             <br />
             <li><img src="https://github.com/ArtyomPrasol/ArtyomPrasol.github.io/blob/ea63fca0df52e1734bd67e75ea7b823e25539e90/image.jpg?raw=true" alt="Ссылка на картинку" width="250" height="250" /></li>
             <br />
-            <li><a href="/page2">Сокращённая ссылка на внутреннюю страницу(4)</a></li>
+            <li><a href="/page2">Сокращённая ссылка на внутреннюю страницу</a></li>
             <br />
-            <li><a href="./index.html">Сокращённая ссылка на главную(5)</a></li>
+            <li><a href="./index.html">Сокращённая ссылка на главную</a></li>
             <br />
-            <li><a href="#bottom">Ссылка на фрагмент текущей страницы(6)</a></li>
+            <li><a href="#bottom">Ссылка на фрагмент текущей страницы</a></li>
             <br />
-            <li><a href="http://example.com/?value=parametr&size=l">Ccылки с тремя параметрами в URL(7)</a></li>
+            <li><a href="http://example.com/?value=parametr&size=l">Ccылки с тремя параметрами в URL</a></li>
+            <br />
                 <a href="https://www.deviantart.com/join/" title="Параметр 1">
                     Параметр 1 
                 </a>
@@ -35,18 +51,17 @@
                     Параметр 3
                 </a>
             <br />
+            <li> <a href="https://www.kubsu.ru/index.php/?id=1234">Ссылка с параметром id в URL</a></li>
             <br />
-            <li> <a href="https://www.kubsu.ru/index.php/?id=1234">Ссылка с параметром id в URL(8)</a></li>
+            <li><a href="./page2.html">Относительная ссылка на страницу в текущем каталоге</a></li>
             <br />
-            <li><a href="./page2.html">Относительная ссылка на страницу в текущем каталоге(9)</a></li>
+            <li><a href=”/about”>Относительная ссылка на страницу в каталоге about</a></li> 
             <br />
-            <li><a href=”/about”>Относительная ссылка на страницу в каталоге about(10)</a></li> 
+            <li><a href="../about">Относительная ссылка уровнем выше </a></li>
             <br />
-            <li><a href="../about">Относительная ссылка уровнем выше(11) </a></li>
-            <br />
-            <li><a href="../../about">Относительная ссылка двумя уровнями выше(12)</a></li>
-            <li> <p> <a id="aInText" href="https://kubsu.ru/"> Cсылка </a>контекстная в тексте абзаца(13)</p></li>
-            <li> <a href="https://www.kubsu.ru/#section-content">Ссылка на фрагмент страницы стороннего сайта(14)</a></li>
+            <li><a href="../../about">Относительная ссылка двумя уровнями выше</a></li>
+            <li> <p> <a id="aInText" href="https://kubsu.ru/"> Cсылка контекстная </a></p></li>
+            <li> <a href="https://www.kubsu.ru/#section-content">Ссылка на фрагмент страницы стороннего сайта</a></li>
             <br />
             <li>
                 <img src="https://github.com/ArtyomPrasol/ArtyomPrasol.github.io/blob/main/images.png?raw=true" usemap="#figuri" alt="Фигуры">
@@ -73,6 +88,77 @@
             <li><a href="ftp://demo:demo@http://demo.wftpserver.com/main.html/download/Summer.jpg">Ссылка на файл на сервере FTP</a></li>
  
     <br />
+            <h2>Таблица</h2>
+            
+             <table border="1" width = "500" bgcolor=pink>
+                 <thead>
+                     <tr>
+                         <th>День</th>
+                         <th>Осадки</th>
+                         <th>Давление</th>
+                         <th>Влажность</th>
+                         <th>Макс.температура</th>
+                         <th>Мин.температура</th>
+                     </tr>
+                 </thead>
+        <tbody>
+            <tr>
+                <td bgcolor = beige>19.09.2023</td>
+                <td bgcolor = beige>Без</td>
+                <td bgcolor = beige>760 мм рт. ст.</td>
+                <td bgcolor = beige>29%</td>
+                <td bgcolor = beige>27°</td>
+                <td bgcolor = beige>13°</td>
+            </tr>
+            <tr>
+                <td>20.09.2023</td>
+                <td>Без</td>
+                <td>762 мм рт.ст.</td>
+                <td>30%</td>
+                <td>29°</td>
+                <td>14°</td>
+            </tr>
+            <tr>
+                <td bgcolor = beige>21.09.2023</td>
+                <td bgcolor = beige>Без</td>
+                <td bgcolor = beige>763 мм рт.ст.</td>
+                <td bgcolor = beige>63%</td>
+                <td bgcolor = beige>29°</td>
+                <td bgcolor = beige>13°</td>
+            </tr>
+            <tr>
+                <td>22.09.2023</td>
+                <td>Без</td>
+                <td>763 мм рт. ст.</td>
+                <td>62%</td>
+                <td>30°</td>
+                <td>15°</td>
+            </tr>
+            <tr>
+                <td bgcolor = beige>23.09.2023</td>
+                <td bgcolor = beige>Без</td>
+                <td bgcolor = beige>763 мм рт.ст.</td>
+                <td bgcolor = beige>61%</td>
+                <td bgcolor = beige>30°</td>
+                <td bgcolor = beige>16°</td>
+            </tr>
+            <tr>
+                <td>24.09.2023</td>
+                <td>Без</td>
+                <td>763 мм рт.ст.</td>
+                <td>59%</td>
+                <td>28°</td>
+                <td>16°</td>
+            </tr>
+        </tbody>
+                 <tfoot>
+                     <tr>
+                         <td bgcolor = beige colspan="4">Средняя макс./мин.температура:</td>
+                         <td bgcolor = beige>28°</td>
+                         <td bgcolor = beige>14°</td>
+                     </tr>
+                 </tfoot>
+    </table>
     <!--Форма-->
         <h2>Форма</h2>
         <form action="/" method="POST"> 
@@ -150,5 +236,9 @@
             Отправка формы
             <input type="submit" value="Отправить" />
         </form>
+            <footer>
+                <a id="bottom"></a>
+                <p>(с) Ирина Шкуратова</p>
+            </footer>
 </body>
 </html>
