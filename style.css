@@ -1,26 +1,44 @@
 header{
-    background: linear-gradient(#E8EAF6, #FFEBEE);
-}
+    background: linear-gradient(#FFCCFF,#F8F8FF);
+} 
 .logo-img{
-    height: 220px;
-    width: 220px;
+    height: 180x;
+    width: 180px;
+    padding-left: -200px;
+    
 }
 .logo-holder{
     width: 920px;
 }
+#tr{
+    padding-top:20px;
+    position: absolute;
+    top:20px;
+    left:200px;
+    font-style: normal;
+    font-size: 45px;
+}
+#stroke{
+    display: inline-block;
+    position: absolute;
+    top: 10px;
+    left: 1200px;
+    font-style: normal;
+    font-size: 40px;
+}
 ul{
     list-style: none;
     margin: 0;
-    padding: 20px;
+    padding: 0px;
 }
 a{
     font-size: 20px;
     padding: 20px;
-    color: deeppink;
+    color: black;
     
 }
 a:hover{
-    color: burlywood;
+    color: deeppink;
     text-decoration: none;
 }
 li{
