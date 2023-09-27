@@ -1,6 +1,9 @@
 header{
     background: linear-gradient(#FFCCFF,#F8F8FF);
 } 
+#vyravn{
+    width: 960px;
+}
 .logo-img{
     height: 180x;
     width: 180px;
