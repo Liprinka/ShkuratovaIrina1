@@ -20,7 +20,7 @@ main {
 .imgHref{
     width: 200px;
     height: 200px;
-     display: block;
+     
 }
 .logo {
     width: 100px;
@@ -39,36 +39,23 @@ main {
 }
 
 header {
+ 
     width: 100%;
     display: flex;
-    flex-direction: column;
     justify-content: space-between;
-    align-items: center;
-    margin: 0 0 5px 0;
+    /*align-items: center;*/
     border-bottom: 1px solid black;
     background-color: #a9a298;
-    align-items: center;
-    position: relative;
-      align-items: center;
-    max-width: 100%;
+
 }
 
 footer {
     width: 100%;
     display: flex;
-    flex-direction: column;
     justify-content: center;
-    /*align-items: center;*/
-    /*border-top: 1px solid black;*/
+    align-items: center;
+    border-top: 1px solid black;
     background-color: #a9a298;
-    /*justify-content: center;*/
-    /*align-items: center;*/
-    max-width: 100%;
-    color: black;
-    margin: 0;
-    position: relative;
-    top: 20px;
-
 }
 
 
