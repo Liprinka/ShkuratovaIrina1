@@ -1,0 +1,33 @@
+html {
+    height: 100%;
+}
+
+
+p, a, input, select, label {
+    font-size: 20px;
+}
+.root {
+    background-color: #dddddd;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+header {
+    background-color: #a9a298;
+    box-shadow: 5px 0 1px black;
+}
+
+footer {
+    background-color: #a9a298;
+    box-shadow: -5px 1px 1px black;
+}
+
+.logo {
+    width: 85px;
+    height: 85px;
+}
+.front-block {
+    border: 1px solid rgba(255, 255, 255, .2);
+    border-radius: 40px;
+    background: rgba(255, 255 ,255, .4);
+}

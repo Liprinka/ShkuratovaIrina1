@@ -1,0 +1,19 @@
+body{
+background-color: #dddddd;  
+}
+html {
+    height: 100%;
+}
+.knigi{
+    max-width: 300px;
+    max-height: 300px;
+    min-width: 300px;
+    min-height: 300px;
+}
+
+.slick-wrapper {
+    max-width: 80%;
+    max-height: 80%;
+    background:#f5f5f5;
+    border-radius: 20px;
+}
