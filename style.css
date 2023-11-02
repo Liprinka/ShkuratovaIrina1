@@ -7,12 +7,13 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #dddddd;
+    background-color: #;
     margin: 0;
 }
 
 .main{
-    width: 60vw;
+    width: 80vw;
+    height: 80vh
 }
 nav {
     display: flex;
@@ -22,11 +23,12 @@ nav {
     border-radius: 50px;
     box-shadow: 0 0 50px #0f0f0f;
     overflow: hidden;
+    height: inherit;
 }
 
 a {
     list-style-type: none;
-    font-size: 25px;
+    font-size: 50px;
     padding: 10px 0;
     text-decoration: none;
     color: #0f0f0f;
