@@ -18,6 +18,12 @@ body {
     height: 100px;
 }
 
+.imgHref{
+    width: 200px;
+    height: 200px;
+     display: block;
+}
+
 header {
     width: 100%;
     display: flex;
