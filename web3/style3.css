@@ -1,5 +1,6 @@
 
-*.root {
+
+.root {
     background-color: #dddddd;
     display: flex;
     flex-direction: column;
@@ -16,6 +17,11 @@ main {
     padding: 5px;
     border-radius: 10px;
 }
+
+.ft1
+{    padding:20px 0 0 50px;
+    font-size:20px;}
+
 
 .imgHref{
     width: 200px;
@@ -34,9 +40,7 @@ main {
     background-color: transparent;
     border: none;
 }
-.first-table {
-    order: -1;
-}
+
 
 header {
  
@@ -46,7 +50,6 @@ header {
     /*align-items: center;*/
     border-bottom: 1px solid black;
     background-color: #a9a298;
-
 }
 
 footer {
@@ -105,6 +108,7 @@ main ol li {
 
 }
 
+
 .section- {
     border: 1px solid pink;
     margin: 10px;
@@ -128,6 +132,20 @@ table, tr, th, td {
  
 
 }
+
+@media all and (max-width: 900px) {
+    .tableBlock {
+        order: 0;
+    }
+    .main-section {
+        order: 1;
+    }
+    .formBlock {
+        order: 2;
+    }
+   
+}
+
 @media all and (min-width: 900px) {
     header {
         flex-direction: row;
@@ -195,9 +213,9 @@ a:hover {
 }
 
 /*@media all and (max-width: 700px){*/
-/*    body {*/
-/*        margin: 0;*/
-/*    }*/
+    /*body {
+        margin: 0;
+   }*/
 
 /*    nav {*/
 /*        width: 80vw;*/
